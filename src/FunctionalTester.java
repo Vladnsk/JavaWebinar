@@ -5,6 +5,7 @@ import java.util.Arrays;
  */
 public class FunctionalTester extends SoftwareTester {
     String skills;
+
     FunctionalTester(String firstName, String lastName, int age, char sex, int experience, String education,
                      String skills) {
         super(firstName, lastName, age, sex, experience, education);

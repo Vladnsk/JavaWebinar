@@ -3,6 +3,7 @@
  */
 public class LoadTester extends SoftwareTester {
     String skills;
+
     LoadTester(String firstName, String lastName, int age, char sex, int experience, String education) {
         super(firstName, lastName, age, sex, experience, education);
     }

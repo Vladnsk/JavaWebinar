@@ -2,6 +2,8 @@ import java.util.Date;
 
 /**
  * Created by Владислав on 29.07.2017.
+ * @author Vladislav Kulikov
+ * @version 1.0
  */
 public class SoftwareTester implements Human {
     String firstName;
@@ -54,11 +56,11 @@ public class SoftwareTester implements Human {
     }
 
     public void printSoftwareTester(){
-        System.out.println("Имя: " + this.firstName);
-        System.out.println("Фамилия: " + this.lastName);
-        System.out.println("Возраст: " + this.age);
-        System.out.println("Образование: " + this.education);
-        System.out.println("Опыт: " + this.experience);
+        System.out.println("Name: " + this.firstName);
+        System.out.println("Lastname: " + this.lastName);
+        System.out.println("Age: " + this.age);
+        System.out.println("Education: " + this.education);
+        System.out.println("Experiens: " + this.experience);
         System.out.println("---------------------------------");
     }
 
